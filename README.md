@@ -77,7 +77,7 @@ P.P.S. If you are just getting started, jump to the new machine setup section.
     - Go to the commit 
     - add `.patch` to the end of the URL
     - See [Tip 051 for walkthrough](https://saraford.net/2017/02/20/how-to-view-the-name-and-email-that-is-associated-with-a-commit-on-github-via-the-web-browser-051/)
-2. GitHub Keyboard Shortcuts
+2. **GitHub Keyboard Shortcuts**
     - Press `?` from on the page
     - On Code page
       - press 't' to start type-ahead search
@@ -133,12 +133,29 @@ P.P.S. If you are just getting started, jump to the new machine setup section.
 1. **Staging** 
    - same as git add, but within VS
    - See [Tip 068 for walkthrough](https://saraford.net/2017/03/09/how-to-stage-changes-in-visual-studio-in-separate-files-066/)
-2. Status bar for push, commit, view history, switch branches, etc. 
+2. **Status bar for push, commit, view history, switch branches, etc.**
    - See [Tip 083 for walkthrough](https://saraford.net/2017/03/24/how-to-use-the-vs-status-bar-buttons-as-a-shortcut-to-team-explorer-panes-083/)
 3. The GitHub Extension for VS is **not** the Team Explorer
    - There's git and then there's Team Explorer and then there's the GitHub extension
-4. GitHub Extension for Visual Studio 
+4. **GitHub Extension for Visual Studio**
    - Looks like it is safe now to have an existing github repo and push it to a newly created GitHub repo without having to worry about different histories when pushing. 
    - "Maintainer workflow" - ability to review and modify PRs from within Visual Studio
    - See [Tip 066 for walkthrough](https://saraford.net/2017/03/07/how-to-use-the-github-tool-window-to-make-changes-to-a-pull-request-from-a-contributor-in-visual-studio-066/)
    
+## Part 5 - Miscellaneous stuff
+
+1. **[GitHub Plugin for Unity](https://unity.github.com)** 
+2. **[Hololens walkthrough](https://saraford.net/2017/03/10/developing-my-first-hololens-app/)** 
+3. **[Octodex](https://octodex.github.com)** 
+4. **[Hubot](https://hubot.github.com)** 
+5. **[Git.io link shortener](https://github.com/blog/985-git-io-github-url-shortener)** 
+
+## Part 6 - New Machine Setup (in case you are new here)
+
+1. **[Desktop / Git Shell](https://saraford.net/2017/02/07/how-to-setup-your-github-credentials-and-handle-2fa-on-windows-using-github-desktop-038/)**
+2. **[Configure email](https://help.github.com/articles/setting-your-commit-email-address-in-git/)** / **[setup as private](https://github.com/blog/2346-private-emails-now-more-private)**
+3. **Configure external diff and merge tool**
+     - [command line](https://saraford.net/2017/04/14/how-to-configure-an-external-diff-and-merge-tool-in-git-104/)
+     - [Visual Studio as external difftool](https://saraford.net/2017/04/15/how-to-use-visual-studio-as-your-external-git-difftool-105/)
+     - [Visual Studio as external merge tool](https://saraford.net/2017/04/16/how-to-use-visual-studio-as-your-external-merge-tool-106/)
+4. **[Verify core editor (anything but vi)](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)**
