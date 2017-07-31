@@ -117,3 +117,28 @@ P.P.S. If you are just getting started, jump to the new machine setup section.
     - Shows the commit when this line or block of code was changed
     - Blame is called Annotate in Visual Studio 
     - See [Tip 059 for walkthrough](https://saraford.net/2017/02/28/how-to-use-blame-on-github-to-find-the-commit-that-changed-that-line-or-block-of-code-059/) 
+
+## Part 3 - Windows info
+1. **Desktop**
+    - Do it for 2FA setup
+    - It also changes the defaults from vi to notepad in some cases to give you a fighting chance
+    - See [Tip 038 for walkthrough](https://saraford.net/2017/02/07/how-to-setup-your-github-credentials-and-handle-2fa-on-windows-using-github-desktop-038/)
+2. **Git Shell**
+    - wished I had known this when I originally signed up for 2FA 
+    - [Tip 038 for walkthrough](https://saraford.net/2017/02/07/how-to-setup-your-github-credentials-and-handle-2fa-on-windows-using-github-desktop-038/)
+
+## Part 4 - Visual Studio info
+   - My ToD really turned into a VS Team Explorer blog
+
+1. **Staging** 
+   - same as git add, but within VS
+   - See [Tip 068 for walkthrough](https://saraford.net/2017/03/09/how-to-stage-changes-in-visual-studio-in-separate-files-066/)
+2. Status bar for push, commit, view history, switch branches, etc. 
+   - See [Tip 083 for walkthrough](https://saraford.net/2017/03/24/how-to-use-the-vs-status-bar-buttons-as-a-shortcut-to-team-explorer-panes-083/)
+3. The GitHub Extension for VS is **not** the Team Explorer
+   - There's git and then there's Team Explorer and then there's the GitHub extension
+4. GitHub Extension for Visual Studio 
+   - Looks like it is safe now to have an existing github repo and push it to a newly created GitHub repo without having to worry about different histories when pushing. 
+   - "Maintainer workflow" - ability to review and modify PRs from within Visual Studio
+   - See [Tip 066 for walkthrough](https://saraford.net/2017/03/07/how-to-use-the-github-tool-window-to-make-changes-to-a-pull-request-from-a-contributor-in-visual-studio-066/)
+   
