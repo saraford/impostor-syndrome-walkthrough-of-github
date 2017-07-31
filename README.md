@@ -16,7 +16,7 @@ If I could go back in time, this is the readme file I'd give myself. It contains
 
 P.S. This is a git pun-free zone.
 
-P.P.S. If you are just getting started, jump to the new machine setup section. 
+P.P.S. If you are just getting started, jump to the [new machine setup section](https://github.com/saraford/impostor-syndrome-walkthrough-of-github/blob/master/README.md#part-6---new-machine-setup-in-case-you-are-new-here). 
 
 ## Part 1 - Visualizing Git Commands
 
