@@ -24,5 +24,51 @@ P.P.S. If you are just getting started, jump to the new machine setup section.
 2. **Setup your practice area using bash commands**
     - GitHub Services offers On Demand Training - shows [how to use a bash script](https://services.github.com/on-demand/git-trouble/git-set-up) to quickly create a test repo
     - Make sure to `git init` first!
-    - See [Tip 086](https://saraford.net/2017/03/27/how-to-write-a-bash-or-powershell-script-to-quickly-create-test-repos-086/) for walkthrough
-		
+    - See [Tip 086 for walkthrough](https://saraford.net/2017/03/27/how-to-write-a-bash-or-powershell-script-to-quickly-create-test-repos-086/)
+3. **ohshitgit.com I've committed on master**
+    - http://ohshitgit.com/#accidental-commit-master
+4. **Git Visualization Tool**
+    - A couple of GitHubbers created a [Git Visualization Tool](https://saraford.net/2017/03/22/how-to-demystify-git-commands-using-visualizing-git/)
+    - This was my NEO WHOA moment - git branches are just pointers. 
+    - Now to visualize what `git reset HEAD~ --hard` actually did 
+    - See [Tip 082 for walkthrough](https://saraford.net/2017/03/23/how-to-fix-the-oh-no-ive-accidentally-committed-on-master-instead-of-a-branch-082/) 
+5. **git reflog (cmd line vs visualization tool)**
+    - Go back and demo in cmd line - OH NO MY FILES ARE GONE I HATE GIT IT IS THE WORST WHY DIDN'T I SAY IN AREOSPACE ENGINEERING WHY DID I MAKE SO MANY BAD CHOICES IN LIFE
+    - Remember your training - go back to the visualization tool. notice the commits are still there, but with a dashed line.
+    - See [Tip 87 for walkthrough](https://saraford.net/2017/03/28/how-to-recover-from-the-oh-no-i-did-a-git-reset-and-now-my-files-are-gone-087/)
+    - Demo reset in visualization tool, then git log. Notice we're all back to where we were before - remember these git branches are just pointers.
+6. **Revert vs reset (demo in visualization tool)**
+    - Revert - this doesn't change history. It creates a new commit. 
+    - Reset - let's just pretend everything after this point never happened
+    - And git reflog still shows the truth for both commands
+    - See [Tip 084 for Revert walkthrough in command line / visualization tool](https://saraford.net/2017/03/25/how-to-use-git-revert-to-undo-a-previous-commit-084/) 
+    - See [Tip 085 for Revert in Visual Studio](https://saraford.net/2017/03/26/how-to-revert-changes-in-visual-studio-085/) 
+    - See [Tip 087 for Reset walkthrough](https://saraford.net/2017/03/28/how-to-recover-from-the-oh-no-i-did-a-git-reset-and-now-my-files-are-gone-087/)
+7. **Merging branches in visualization tool**
+    - I always speak in full sentences. "I want to merge <branch> into <my current branch>"  
+    - visualization tool can't do a --no-ff (no fast forwards)
+    - See [Tip 88 for walkthrough](https://saraford.net/2017/03/29/how-to-create-a-branch-in-visual-studio-088/)
+8. **You can do an Undo in the visualization tool**
+    - if you're following along at home, type `undo` in tool. you'll go back to the point before the branch merge
+9. **Rebase**
+    - "I want to rebase <branch> onto <my current branch>"    
+    - Note how rebase is a destructive action - the commit ids are different 
+    - Not done yet! After rebase, have to move master up (same as merging branches)
+      - Git checkout master; git merge feature
+    - See [Tip 111 for cmd line walkthrough](https://saraford.net/2017/04/21/how-to-visualize-a-rebase-in-the-git-visualization-tool-111/) 
+    - See [Tip 114 for Visual Studio walkthrough](https://saraford.net/2017/04/24/how-to-do-a-rebase-in-visual-studio-114/)
+10. **Cherry-pick in visualization tool**
+    - Switch to cherry-pick
+    - git cherry-pick bugfix1
+11. **Detatched Head** 
+    - Do a `git checkout <some commit id>` and freak out that you're in a detatched head state
+    - Do a `git checkout master` to calm back down and stay in your current profession
+    - One thing about git that drives me crazy is when you checkout the commit id that master is pointing to, but yet are still in a detatched head state. After seeing this demo'ed in the visualization tool, I felt for hte first time I had a fighting chance using git. 
+12. **Limitations of the tool**
+    - No working directory, so no way to do interactive rebase
+    - no reset `--hard` or `--soft`
+13. **More GitHub Tutorials**
+    - [GitHub Services On Demand Git Out Of Trouble](https://services.github.com/on-demand/git-trouble/)
+    - Note: This tutorial offers "I've pushed" and "I've didn't push" guidance which is awesome!
+    
+ 
